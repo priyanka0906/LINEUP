@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/list_fragment">
+
+    <fragment
+        android:id="@+id/adderFragment"
+        android:name="com.example.myto_do.fragments.add.AdderFragment"
+        android:label="Add"
+        tools:layout="@layout/fragment_adder" >
+        <action
+            android:id="@+id/action_adderFragment_to_list_fragment"
+            app:destination="@id/list_fragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/list_fragment"
+        android:name="com.example.myto_do.fragments.list.ListFragment"
+        android:label="ToDo List"
+        tools:layout="@layout/fragment_list_fragment" >
+        <action
+            android:id="@+id/action_list_fragment_to_adderFragment"
+            app:destination="@id/adderFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_list_fragment_to_updatedFragment"
+            app:destination="@id/updatedFragment"
+            app:enterAnim="@anim/from_left"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_right"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/updatedFragment"
+        android:name="com.example.myto_do.fragments.update.UpdatedFragment" 
+        android:label="Update"
+        tools:layout="@layout/fragment_updated" >
+        <action
+            android:id="@+id/action_updatedFragment_to_list_fragment"
+            app:destination="@id/list_fragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left" />
+        <argument
+            android:name="currentItem"
+            app:argType="com.example.myto_do.models.ToDoData" />
+    </fragment>
+</navigation>
