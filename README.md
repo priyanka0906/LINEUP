@@ -1,6 +1,6 @@
 # My To-Do App
 
-It is an app can be used to mark our daily to-do work. In it we can also give priority to the tasks. Red color shows high priority, yellow color shows medium priority and green color shows low priority.I have used kotlin, MVVM architecture and room library while building this app.
+It is an app can be used to mark our daily to-do work. In it we can also give priority to the tasks. Red color shows high priority, yellow color shows medium priority and green color shows low priority.I have used `kotlin`, `MVVM architecture` and `room library` while building this app.
 <br>
 <br>
 
