@@ -4,7 +4,7 @@ It is an app can be used to mark our daily to-do work. In it we can also give pr
 <br>
 <br>
 
-Following are the screenshots of the app :
+<h3>Following are the screenshots of the app :</h3>
 
 ![WhatsApp Image 2021-04-28 at 11 33 19 PM](https://user-images.githubusercontent.com/56197993/116451552-43172980-a87a-11eb-80fa-50f0cef7bf0f.jpeg)|![WhatsApp Image 2021-04-28 at 11 19 18 PM](https://user-images.githubusercontent.com/56197993/116451311-ef0c4500-a879-11eb-86fa-d0ebb8bdd12c.jpeg)|![WhatsApp Image 2021-04-28 at 11 38 57 PM (1)](https://user-images.githubusercontent.com/56197993/116452266-2a5b4380-a87b-11eb-8e70-2dbe9f8f002a.jpeg)
 ------------ | ------------- | -------------
