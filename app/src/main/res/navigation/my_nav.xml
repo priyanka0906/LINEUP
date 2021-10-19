@@ -19,8 +19,8 @@
     <fragment
         android:id="@+id/list_fragment"
         android:name="com.example.myto_do.fragments.list.ListFragment"
-        android:label="ToDo List"
-        tools:layout="@layout/fragment_list_fragment" >
+        android:label="LINEUP"
+        tools:layout="@layout/fragment_list_fragment">
         <action
             android:id="@+id/action_list_fragment_to_adderFragment"
             app:destination="@id/adderFragment"
@@ -38,7 +38,7 @@
     </fragment>
     <fragment
         android:id="@+id/updatedFragment"
-        android:name="com.example.myto_do.fragments.update.UpdatedFragment" 
+        android:name="com.example.myto_do.fragments.update.UpdatedFragment"
         android:label="Update"
         tools:layout="@layout/fragment_updated" >
         <action

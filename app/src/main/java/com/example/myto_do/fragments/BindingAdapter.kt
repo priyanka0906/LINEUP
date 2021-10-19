@@ -1,9 +1,7 @@
 package com.example.myto_do.fragments
 
-import android.os.Build
 import android.view.View
 import android.widget.Spinner
-import androidx.annotation.RequiresApi
 import androidx.cardview.widget.CardView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat

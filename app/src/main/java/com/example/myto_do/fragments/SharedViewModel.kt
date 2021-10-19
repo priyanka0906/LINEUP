@@ -3,7 +3,6 @@ package com.example.myto_do.fragments
 import android.app.Application
 import android.text.TextUtils
 import android.view.View
-import android.widget.Adapter
 import android.widget.AdapterView
 import android.widget.TextView
 import androidx.core.content.ContextCompat
