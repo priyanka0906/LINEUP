@@ -1,18 +1,14 @@
 package com.example.myto_do.fragments.add
 
 import android.os.Bundle
-import android.text.TextUtils
 import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
 import com.example.myto_do.R
 import com.example.myto_do.data.MyToDoViewModel
 import com.example.myto_do.fragments.SharedViewModel
-import com.example.myto_do.models.Priority
 import com.example.myto_do.models.ToDoData
 import kotlinx.android.synthetic.main.fragment_adder.*
 import kotlinx.android.synthetic.main.fragment_adder.view.*

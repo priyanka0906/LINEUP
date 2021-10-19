@@ -6,17 +6,15 @@ import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.myto_do.R
 import com.example.myto_do.data.MyToDoViewModel
 import com.example.myto_do.databinding.FragmentUpdatedBinding
 import com.example.myto_do.fragments.SharedViewModel
-import com.example.myto_do.models.Priority
 import com.example.myto_do.models.ToDoData
 import kotlinx.android.synthetic.main.fragment_updated.*
-import kotlinx.android.synthetic.main.fragment_updated.view.*
+
 
 class UpdatedFragment : Fragment() {
     private val args by navArgs<UpdatedFragmentArgs>()
